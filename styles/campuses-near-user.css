@@ -1,0 +1,38 @@
+/* Facilities */
+
+.facilities{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities-col{
+  padding-top: 10px;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.facilities-col:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.facilities-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilities-col p{
+  padding: 0;
+}
+.facilities-col h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}

@@ -3,17 +3,27 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketplace Website</title>
-    <link rel="stylesheet" href="style.css">
+    <!------------ CSS Styles-------------->
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/login-registration.css">
+    <link rel="stylesheet" href="styles/searchbar.css">
+    <link rel="stylesheet" href="styles/services-and-products.css">
+    <link rel="stylesheet" href="styles/famous-campuses.css">
+    <link rel="stylesheet" href="styles/campuses-near-user.css">
+    <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-
 </head>
 <body>
+    <!------------- Header ---------------> 
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
@@ -23,16 +33,14 @@
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">CREATORS</a></li>
-                    <li><a class="btnLogin-popup login-link">LOGIN</a></li>
+                    <li><a class="btnLogin-popup">LOGIN</a></li>
                     <li><a href="">SIGN UP</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="openMenu()"></i>
         </nav>
 
-        <div class="text-box">
-            <h1>Students Marketplace</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptate cum modi ipsa repellat tempora praesentium blanditiis dolor voluptas rem, <br> consectetur architecto, minus facere sequi. Vel ipsam delectus eligendi dolor.</p>
+        <div class="text-box">         
             <div class="box">
                 <input type="text" placeholder="Search your desired Campus">
                 <a href="">
@@ -42,8 +50,8 @@
         </div>
     </section>
 
-    <!------ Register and Login ------> 
 
+    <!---------- Register and Login -------------> 
     
     <section class="login-register">
         <div class="wrapper">
@@ -121,7 +129,7 @@
                         <button type="submit" class="btn">Register</button>
 
                         <div class="logreg-link">
-                            <p>Already have an account? <a href="#" class="register-link">Login</a></p>
+                            <p>Already have an account? <a href="#" class="login-link">Login</a></p>
                         </div>
                     </form>
                 </div>
@@ -139,66 +147,66 @@
         </div>
     </section>
 
-    <!------ Services and Producs ------>
+    <!-------------- Services and Producs ------------------>
 
     <section class="school-display">
-        <h1>Buy</h1>
+        <h1>Buy <span><i class='bx bxs-cart'></i></span></h1>
         <p>What are you looking for?</p>
 
         <div class="row">
             <div class="display-col">
-                <img src="images/eduford_img/library.png">
+                <img src="images/Product and Service/buying product.png">
                 <h3>Product</h3>
             </div>
 
             <div class="display-col">
-                <img src="images/eduford_img/basketball.png">
+                <img src="images/Product and Service/buying service.png">
                 <h3>Service</h3>
             </div>
         </div>
     </section> 
     
     <section class="school-display">
-        <h1>Sell</h1>
+        <h1>Sell <span><i class='bx bxs-store-alt' ></i></span></h1>
         <p>What do you have to offer?</p>
 
         <div class="row">
-            <div class="display-col">
-                <img src="images/eduford_img/library.png">
+            <div class="display-col two">
+                <img src="images/Product and Service/selling product.png">
                 <h3>Products</h3>
             </div>
 
-            <div class="display-col">
-                <img src="images/eduford_img/basketball.png">
+            <div class="display-col two">
+                <img src="images/Product and Service/selling service.png">
                 <h3>Service</h3>
             </div>
         </div>
     </section>  
 
 
-    <!------- Section 3 ------->
+    <!------------------ Famous Campuses -------------------->
     
     <section class="campus">
-        <h1>Famous Campuses</h1>
+        <h1>Famous Campuses <span></span></h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, maxime.</p>
 
         <div class="row">
             <div class="campus-col">
-                <img src="images/mseuf.png">
+                <img src="images/Campuses/mseuf.png">
                 <div class="layer">
                     <h3>MSEUF Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/mseuf.png">
+                <img src="images/Campuses/sticampus.png">
                 <div class="layer">
                     <h3>STI Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/mseuf.png">
+                <img src="images/Campuses/lcnhs campus.png">
                 <div class="layer">
                     <h3>LCNHS</h3>
                 </div>
@@ -207,23 +215,23 @@
         </div>
         <div class="row">
             <div class="campus-col">
-                <img src="images/mseuf.png">
+                <img src="images/Campuses/sacredheart campus.jpg">
                 <div class="layer">
-                    <h3>MSEUF Lucena</h3>
+                    <h3>Sacred Heart College Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/mseuf.png">
+                <img src="images/Campuses/quezonhigh campus.png">
                 <div class="layer">
-                    <h3>STI Lucena</h3>
+                    <h3>Quezon High Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/mseuf.png">
+                <img src="images/Campuses/stanne campus.png">
                 <div class="layer">
-                    <h3>LCNHS</h3>
+                    <h3>Saint Anned College Lucena</h3>
                 </div>
             </div>
             
@@ -231,26 +239,26 @@
     </section>
     
 
-    <!---- Facilities ---->
+    <!--------------------- Campuses Near User ------------------------------->
     <section class="facilities">
-        <h1>Campus near You!</h1>
+        <h1>Campuses near You!</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, minus.</p>
 
         <div class="row">
             <div class="facilities-col">
-                <img src="images/Enverga.png">
+                <img src="images/Campuses/mseuf.png">
                 <h3>MSEUF Lucena</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur!</p>
             </div>
 
             <div class="facilities-col">
-                <img src="images/sti.png">
+                <img src="images/Campuses/sticampus.png">
                 <h3>STI Lucena</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur!</p>
             </div>
 
             <div class="facilities-col">
-                <img src="images/lcnhs.png">
+                <img src="images/Campuses/lcnhs campus.png">
                 <h3>LCNHS</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur!</p>
             </div>
@@ -258,14 +266,14 @@
     </section>
 
 
-    <!---- Testimonials ---->
+    <!-------------------------- Testimonials ------------------------------->
     <section class="testimonials">
         <h1>Reviews</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, minus.</p>
 
         <div class="row">
             <div class="testimonial-col">
-                <img src="images/eduford_img/Gakkou Gurashi.jpg">
+                <img src="images/User/Gakkou Gurashi.jpg">
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestiae ea quo, sint voluptates, facere cupiditate quibusdam non consequatur sunt tempora dolores illo esse maiores. Quae id dolores adipisci laborum?</p>
                     <h3>Yexcel kalbo</h3>
@@ -278,7 +286,7 @@
             </div>
 
             <div class="testimonial-col">
-                <img src="images/eduford_img/yuri.png">
+                <img src="images/User/yuri.png">
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestiae ea quo, sint voluptates, facere cupiditate quibusdam non consequatur sunt tempora dolores illo esse maiores. Quae id dolores adipisci laborum?</p>
                     <h3>Rm Villa</h3>
@@ -292,32 +300,32 @@
     </section>
 
 
-<!----- Call to Action ---->
+    <!--------------------------- Call to Action ------------------------------->
 
-<section class="cta">
-    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Nihil, voluptates.</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
-</section>
+    <section class="cta">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Nihil, voluptates.</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
 
 
-<!----- Footer ---->
+    <!-------------------- Footer ------------------------------>
 
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate aperiam quidem consequatur consectetur inventore! Nulla earum enim nostrum, voluptas harum eius <br>fugit fugiat iste soluta quisquam doloribus iusto id.</p>
-    <div class="icons">
-        <i class="fa fa-facebook-official"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-    </div>
-    <p>Made By MSEUF Computer Science Students 2024</p>
-</section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate aperiam quidem consequatur consectetur inventore! Nulla earum enim nostrum, voluptas harum eius <br>fugit fugiat iste soluta quisquam doloribus iusto id.</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made By MSEUF Computer Science Students 2024</p>
+    </section>
 
-<!------scripts for logins and registration*/----->
+<!----------------- scripts for logins and registration -------------------------->
 <script src="scripts/login-and-registration.js"></script>
 
-<!------script for the menu on mobile*/----->
+<!----------------- script for the menu on mobile ------------------------->
 <script>
     // toggle Menu
     var navLinks = document.getElementById("navLinks");
