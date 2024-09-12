@@ -2,13 +2,13 @@
 .testimonials{
   width: 80%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
 }
 
 .testimonial-col{
-  padding: 20px;
-  flex-basis: 44%;
+  padding: 10px;
+  flex-basis: 30%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;

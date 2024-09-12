@@ -2,7 +2,7 @@
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Envergaforbottom.png);
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Envergabottom.png);
   background-position: center;
   background-position: cover;
   background-image: 10px;
@@ -36,8 +36,9 @@
   font-weight: 600;
 }
 
-.icons .fa{
-  color: #D8A25E;
+.icons .bx{
+  font-size: 30px;
+  color: #201f1d;
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;

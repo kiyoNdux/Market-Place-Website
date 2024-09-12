@@ -8,7 +8,10 @@
 }
 
 .facilities-col{
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;

@@ -4,12 +4,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 .header{
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.158), rgba(6, 15, 49, 0.7)), url(Coming\ Soon\ Website.png);
+    background-image: linear-gradient(rgba(22, 22, 22, 0.158), rgba(52, 52, 54, 0.7)), url(websitebackground.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     position: relative; 
 }
 
@@ -56,27 +64,6 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
-.text-box {
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.text-box h1{
-    font-size: 62px;
-}
-
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
-}
-
 
 /* hiding Icons in PC's */
 nav .fa{

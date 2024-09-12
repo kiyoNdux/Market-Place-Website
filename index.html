@@ -3,24 +3,27 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketplace Website</title>
-    <!------------ CSS Styles-------------->
+    <!------------ CSS Styles -------------->
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/login-registration.css">
     <link rel="stylesheet" href="styles/searchbar.css">
+    <link rel="stylesheet" href="styles/header-campus.css">
     <link rel="stylesheet" href="styles/services-and-products.css">
     <link rel="stylesheet" href="styles/famous-campuses.css">
     <link rel="stylesheet" href="styles/campuses-near-user.css">
     <link rel="stylesheet" href="styles/testimonials.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    
+     <!------------ Fonts -------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+     <!------------ Scroll Animation -------------->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <!------------- Header ---------------> 
@@ -39,7 +42,7 @@
             </div>
             <i class="fa fa-bars" onclick="openMenu()"></i>
         </nav>
-
+         <!------------- Search Bar ---------------> 
         <div class="text-box">         
             <div class="box">
                 <input type="text" placeholder="Search your desired Campus">
@@ -47,6 +50,55 @@
                     <i class="fas fa-search"></i>
                 </a>
             </div>
+        </div>
+    </section>
+
+     <!------------- header campus ---------------> 
+    <section class="header-campus">
+
+        <div class="row">
+            <div class="header-campus-col">
+                <img src="images/Campuses/header/mseuf campus.png">
+                <div class="layer">
+                    <h3>MSEUF Lucena</h3>
+                </div>
+            </div>
+
+            <div class="header-campus-col">
+                <img src="images/Campuses/header/sticampus.png">
+                <div class="layer">
+                    <h3>STI Lucena</h3>
+                </div>
+            </div>
+
+            <div class="header-campus-col">
+                <img src="images/Campuses/header/lcnhs campus.png">
+                <div class="layer">
+                    <h3>LCNHS</h3>
+                </div>
+            </div>
+            
+            <div class="header-campus-col">
+                <img src="images/Campuses/header/sacredheart campus.jpg">
+                <div class="layer">
+                    <h3>Sacred Heart College Lucena</h3>
+                </div>
+            </div>
+
+            <div class="header-campus-col">
+                <img src="images/Campuses/header/quezonhigh campus.png">
+                <div class="layer">
+                    <h3>Quezon High Lucena</h3>
+                </div>
+            </div>
+
+            <!---<div class="header-campus-col">
+                <img src="images/Campuses/header/stanne campus.png">
+                <div class="layer">
+                    <h3>Saint Anned College Lucena</h3>
+                </div>
+            </div>------>
+            
         </div>
     </section>
 
@@ -63,7 +115,7 @@
                 <div class="form-box login">
                     <div class="logreg-title">
                         <h2>Login</h2>
-                        <p>please login to ue the platform</p>
+                        <p>please login to use the platform</p>
                     </div>
                     <form action="#">
                         <div class="input-box">
@@ -149,37 +201,52 @@
 
     <!-------------- Services and Producs ------------------>
 
-    <section class="school-display">
-        <h1>Buy <span><i class='bx bxs-cart'></i></span></h1>
-        <p>What are you looking for?</p>
-
+    <section class="product-services-display">
+        <div class="header-text">
+            <h1>Product and Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, maxime.</p>
+        </div>
         <div class="row">
+            <div class="display-col buy">
+                <h1>Buy <span><i class='bx bxs-cart'></i></span></h1>
+                    <p>What are you looking for?</p>
+            </div>
             <div class="display-col">
                 <img src="images/Product and Service/buying product.png">
                 <h3>Product</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, animi?</p>
             </div>
 
             <div class="display-col">
                 <img src="images/Product and Service/buying service.png">
                 <h3>Service</h3>
-            </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, animi?</p>
+            </div>     
         </div>
-    </section> 
+        <div class="description">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsa iure ea corrupti eius magni praesentium officia amet maxime, nulla, omnis veniam? Ab corporis modi consequatur nobis. Assumenda, quia. Recusandae?</p>
+        </div>
     
-    <section class="school-display">
-        <h1>Sell <span><i class='bx bxs-store-alt' ></i></span></h1>
-        <p>What do you have to offer?</p>
-
         <div class="row">
+            <div class="display-col buy">
+                <h1>Sell <span><i class='bx bxs-store-alt' ></i></span></h1>
+                <p>What do you have to offer?</p>
+            </div>
+        
             <div class="display-col two">
                 <img src="images/Product and Service/selling product.png">
                 <h3>Products</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, animi?</p>
             </div>
 
             <div class="display-col two">
                 <img src="images/Product and Service/selling service.png">
                 <h3>Service</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, animi?</p>
             </div>
+        </div>
+        <div class="description">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsa iure ea corrupti eius magni praesentium officia amet maxime, nulla, omnis veniam? Ab corporis modi consequatur nobis. Assumenda, quia. Recusandae?</p>
         </div>
     </section>  
 
@@ -187,54 +254,61 @@
     <!------------------ Famous Campuses -------------------->
     
     <section class="campus">
-        <h1>Famous Campuses <span></span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, maxime.</p>
+        <div class="campus-header">
+            <h1>Famous Campuses <span></span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, maxime.</p>
+        </div>
+        
 
         <div class="row">
             <div class="campus-col">
-                <img src="images/Campuses/mseuf campus.png">
+                <img src="images/Campuses/famous campuses/mseuf campus.png">
                 <div class="layer">
                     <h3>MSEUF Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/Campuses/sticampus.png">
+                <img src="images/Campuses/famous campuses/sticampus.png">
                 <div class="layer">
                     <h3>STI Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/Campuses/lcnhs campus.png">
+                <img src="images/Campuses/famous campuses/lcnhs campus.png">
                 <div class="layer">
                     <h3>LCNHS</h3>
                 </div>
             </div>
-            
-        </div>
-        <div class="row">
+
             <div class="campus-col">
-                <img src="images/Campuses/sacredheart campus.jpg">
+                <img src="images/Campuses/famous campuses/sacredheart campus.jpg">
                 <div class="layer">
                     <h3>Sacred Heart College Lucena</h3>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            
 
             <div class="campus-col">
-                <img src="images/Campuses/quezonhigh campus.png">
+                <img src="images/Campuses/famous campuses/quezonhigh campus.png">
                 <div class="layer">
                     <h3>Quezon High Lucena</h3>
                 </div>
             </div>
 
             <div class="campus-col">
-                <img src="images/Campuses/stanne campus.png">
+                <img src="images/Campuses/famous campuses/stanne campus.png">
                 <div class="layer">
                     <h3>Saint Anned College Lucena</h3>
                 </div>
             </div>
             
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, maxime.</p>
         </div>
     </section>
     
@@ -246,19 +320,19 @@
 
         <div class="row">
             <div class="facilities-col">
-                <img src="images/Campuses/mseuf campus.png">
+                <img src="images/Campuses/famous campuses/mseuf campus.png">
                 <h3>MSEUF Lucena</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur!</p>
             </div>
 
             <div class="facilities-col">
-                <img src="images/Campuses/sticampus.png">
+                <img src="images/Campuses/famous campuses/sticampus.png">
                 <h3>STI Lucena</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur!</p>
             </div>
 
             <div class="facilities-col">
-                <img src="images/Campuses/lcnhs campus.png">
+                <img src="images/Campuses/famous campuses/lcnhs campus.png">
                 <h3>LCNHS</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur!</p>
             </div>
@@ -268,9 +342,11 @@
 
     <!-------------------------- Testimonials ------------------------------->
     <section class="testimonials">
-        <h1>Reviews</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, minus.</p>
-
+        <div class="testimonials-header">
+            <h1>Reviews</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, minus.</p>
+        </div>
+        
         <div class="row">
             <div class="testimonial-col">
                 <img src="images/Users/user1.png">
@@ -297,6 +373,18 @@
                     <i class="fa fa-star-half-o"></i>
                 </div>
             </div> 
+            <div class="testimonial-col">
+                <img src="images/Users/user1.png">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestiae ea quo, sint voluptates, facere cupiditate quibusdam non consequatur sunt tempora dolores illo esse maiores. Quae id dolores adipisci laborum?</p>
+                    <h3>Yexcel kalbo</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
     </section>
 
 
@@ -314,16 +402,19 @@
         <h4>About Us</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate aperiam quidem consequatur consectetur inventore! Nulla earum enim nostrum, voluptas harum eius <br>fugit fugiat iste soluta quisquam doloribus iusto id.</p>
         <div class="icons">
-            <i class="fa fa-facebook-official"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+            <i class='bx bxl-facebook-square'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram-alt' ></i>
+            <i class='bx bxl-linkedin-square' ></i>
         </div>
         <p>Made By MSEUF Computer Science Students 2024</p>
     </section>
 
 <!----------------- scripts for logins and registration -------------------------->
 <script src="scripts/login-and-registration.js"></script>
+
+<!----------------- scripts for scroll Animations -------------------------->
+<script src="scripts/scroll-reveal.js"></script>
 
 <!----------------- script for the menu on mobile ------------------------->
 <script>

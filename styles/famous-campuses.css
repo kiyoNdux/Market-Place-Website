@@ -1,13 +1,13 @@
 /* Famous Campuses */
 .campus{
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin-left: 100px;
+  padding-top: 100px;
   text-align: center;
-  padding-top: 50px;
 }
 
 .campus-col{
-  flex-basis: 32%;
+  flex-basis: 25%;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
@@ -16,16 +16,17 @@
 }
 
 .campus-col img{
-  width: 100%;
+  width: 90%;
   display: block;
   object-fit: fill;
   
 }
 
 .layer{
+  border-radius: 10px;
   background: transparent;
   height: 100%;
-  width: 100%;
+  width: 90%;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,9 +40,9 @@
 
 .layer h3{
   width: 100%;
-  font-weight: 100%;
+  font-weight: 80%;
   color: #fff;
-  font-size: 26px;
+  font-size: 15px;
   bottom: 0;
   left: 50%; 
   transform: translateX(-50%);
