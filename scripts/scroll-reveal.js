@@ -6,6 +6,7 @@ ScrollReveal({
   });
   
 ScrollReveal().reveal('.nav-links', {delay: 300, origin: 'top', interval: 300});
+ScrollReveal().reveal('.header-campus-col-location', {delay: 300, origin: 'right', interval: 300});
 ScrollReveal().reveal('.header-campus-col', {delay: 300, origin: 'right', interval: 300});
 ScrollReveal().reveal('.text-box', {delay: 200, origin: 'bottom'});
 ScrollReveal().reveal('.header-text', {delay: 300, origin: 'bottom'});
